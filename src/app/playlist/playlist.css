@@ -1,0 +1,21 @@
+.PLaylist_main_div{
+    background-image: url('/Playlist_bg.png');
+    background-position: -10vw -20vw ;
+    background-repeat: no-repeat;
+}
+
+#text_3{
+    color: transparent; /* Makes the text color transparent */
+    -webkit-text-stroke: 2px #ffff; /* Stroke width and color */
+    text-stroke: 2px #ffff
+}
+
+
+@media screen and (max-width: 480px) {
+    .PLaylist_main_div{
+        background-image: url('/Playlist_bg.png');
+        
+        background-repeat: no-repeat;
+    }
+  }
+ 
